@@ -1,3 +1,7 @@
 fun main() {
-    println("Hello World!")
+    val str = "Шумоизоляция"
+    var setStr = str.toSet()
+    var result = str.length - setStr.size
+    println("Количество повторяющихся символов $result")
+
 }
